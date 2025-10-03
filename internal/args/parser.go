@@ -9,7 +9,7 @@ type Config struct {
 
 func Parse() Config {
 	target := flag.String("t", "", "Target Host Or IP To Scan.")
-	help := flag.Bool("help", false, "Show Help Message.")
+	help := flag.Bool("h", false, "Show Help Message.")
 
 	flag.Parse()
 

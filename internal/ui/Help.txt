@@ -1,29 +1,28 @@
-		____  _  __   __
-	 / ___|| |/ /  / /_
-	 \___ \| ' /  | '_ \
-		___) | . \  | (_) |
-	 |____/|_|\_\  \___/
+   _____ __
+  / ___// /____  ______
+  \__ \/ //_/ / / / __ \
+ ___/ / ,< / /_/ / / / /
+/____/_/|_|\__, /_/ /_/
+          /____/
 
-				Skyn CLI Port Scanner ⚡
-
-Welcome to Skyn — A Clean, Minimalist CLI Tool for TCP Port Scanning.
+Skyn Provides TCP Port Scanning Through A Clean, Modular CLI — Built For Speed And Extensibility.
 
 Usage:
-	skyn -t <Target>
-	skyn --help
+	Skyn -t <Target>
+	Skyn -h
 
 Parameters:
-	-t     Target Host Or IP To Scan     localhost / 127.0.0.1
-	--help Show Help Message             Displays This Output
+	-t Target Host Or IP To Scan    localhost / 127.0.0.1
+	-h Show Help Message            Displays This Output
 
 Examples:
-	skyn -t localhost
-	skyn -t 127.0.0.1
-	skyn --help
+	Skyn -t localhost
+	Skyn -t 127.0.0.1
+	Skyn -h
 
 Tip:
 	Skyn Scans Popular TCP Ports By Default:
 	20, 21, 22, 23, 25, 53, 80, 110, 139, 143, 443, 445, 3389
 
 License:
-	MIT — Free To Use, Modify, And Share.
+	Licensed Under The MIT License — Feel Free To Use, Modify, And Share With Proper Attribution. Encryption Belongs To Everyone.
